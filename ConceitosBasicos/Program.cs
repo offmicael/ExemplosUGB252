@@ -2,6 +2,7 @@
 int idade = 22;
 Console.WriteLine("A idade é" + idade);
 if (idade >= 18)
-{
     Console.WriteLine("Você pode tirar habilitação");
-}
+
+else
+    Console.WriteLine("Você não pode tirar habilitação");
