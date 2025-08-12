@@ -1,8 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-int idade = 22;
-Console.WriteLine("A idade é" + idade);
-if (idade >= 18)
-    Console.WriteLine("Você pode tirar habilitação");
+﻿Console.WriteLine("Informe seu nome: ");
+string nome = Console.ReadLine();
+Console.WriteLine("Informe seu salário: ");
+decimal salario = decimal.Parse(Console.ReadLine());
 
-else
-    Console.WriteLine("Você não pode tirar habilitação");
+Console.WriteLine($"Seu nome é {nome} e seu salário é {salario}");
+
